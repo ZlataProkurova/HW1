@@ -9,4 +9,5 @@ int main() {
 	s %= 3600;
 	m = s / 60;
 	std::cout << "It is " << h << "hours " << m << "minutes" << std::endl;
+	return 0;
 }
