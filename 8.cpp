@@ -4,18 +4,18 @@ using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "rus");
-	float a, b, ñ;
-	std::cout << "Ââåäèòå çíà÷åíèå ïåðâîé ñòîðîíû òðåóãîëüíèêà :" << std::endl;
+	float a, b, Ã±;
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð¿ÐµÑ€Ð²Ð¾Ð¹ ÑÑ‚Ð¾Ñ€Ð¾Ð½Ñ‹ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ° :" << std::endl;
 	std::cin >> a;
-	std::cout << "Ââåäèòå çíà÷åíèå âòîðîé ñòîðîíû òðåóãîëüíèêà :" << std::endl;
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð²Ñ‚Ð¾Ñ€Ð¾Ð¹ ÑÑ‚Ð¾Ñ€Ð¾Ð½Ñ‹ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ° :" << std::endl;
 	std::cin >> b;
-	std::cout << "Ââåäèòå çíà÷åíèå òðåòüåé ñòîðîíû òåóãîëüíèêà :" << std::endl;
-	std::cin >> ñ;
-	float ma = 0.5 * sqrt(2 * b * b + 2 * ñ * ñ - a * a);
-	std::cout << "Ìåäèàíà à = " << ma << std::endl;
-	float mb = 0.5 * sqrt(2 * a * a + 2 * ñ * ñ - b * b);
-	std::cout << "Ìåäèàíà â = " << mb << std::endl;
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ñ‚Ñ€ÐµÑ‚ÑŒÐµÐ¹ ÑÑ‚Ð¾Ñ€Ð¾Ð½Ñ‹ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ° :" << std::endl;
+	std::cin >> Ã±;
+	float ma = 0.5 * sqrt(2 * b * b + 2 * Ã± * Ã± - a * a);
+	std::cout << "ÃŒÃ¥Ã¤Ã¨Ã Ã­Ã  Ã  = " << ma << std::endl;
+	float mb = 0.5 * sqrt(2 * a * a + 2 * Ã± * Ã± - b * b);
+	std::cout << "ÃŒÃ¥Ã¤Ã¨Ã Ã­Ã  Ã¢ = " << mb << std::endl;
 
-	float mc = 0.5 * sqrt(2 * a * a + 2 * b * b - ñ * ñ);
-	std::cout << "Ìåäèàíà ñ = " << mc << std::endl;
+	float mc = 0.5 * sqrt(2 * a * a + 2 * b * b - Ã± * Ã±);
+	std::cout << "ÃŒÃ¥Ã¤Ã¨Ã Ã­Ã  Ã± = " << mc << std::endl;
 }
