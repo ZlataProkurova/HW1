@@ -1,7 +1,7 @@
 
 #include <iostream>
-void chekaem(int x) {
-    if (x % 10 == 1) {
+void chekaem(int x) { //объявляем функцию, которая ничего не возвращает
+    if (x % 10 == 1) { //условная конструкция
         std::cout << x << " " << "Copeyka" << std::endl;
     }
     if ((x % 10 == 2) || (x % 10 == 3) || (x % 10 == 4)) {
@@ -22,7 +22,7 @@ int main(){
     int x;
     std::cout << "Vvedite kolichestvo kopeek\n";
     std::cin >> x;
-    chekaem(x);
+    chekaem(x); //вызываем функцию
     return 0;
 
 }
