@@ -21,4 +21,5 @@ int main()
 		S = 0.5 * (b1 + b2) * h;
 
 		std:: cout<<"Площадь трапеции = "<< S <<std::endl;
+	return 0;
 }
