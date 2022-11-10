@@ -1,18 +1,17 @@
 #include <iostream>
 
-using namespace std;
 
 int main()
 {
-	setlocale(LC_ALL, "rus");
+	setlocale(LC_ALL, "rus"); //даёт возможность использовать русский язык
 
-	int b1, b2, h;
-	double S;
+	int b1, b2, h; //объявляем целочисленные переменные 
+	double S; //объявляем вещественную переменную
 
 
 
-	std::cout<<"Введите нижнее основание: "<< std:: endl;
-	std::cin >> b1; 
+	std::cout<<"Введите нижнее основание: "<< std:: endl; //выводим в консоль предложение
+	std::cin >> b1; //инициализируем переменную с клавиатуры 
 	std::cout << "Введите верхнее основание: " << std::endl;
 	std::cin >> b2;
 	std::cout << "Введите высоту: " << std::endl;
