@@ -4,15 +4,15 @@
 
 int main()
 {
-    int chislo[3]{};
+    int chislo[3]{}; //объявляем массив длиной в 3 символа
     int i;
     int x;
     int b;
     std::cout << "Vvedite chislo\n";
     std::cin >> x;
-    for (i = 0; i < 3; i++) {
-        chislo[i] = x % 10;
-        x = x / 10;
+    for (i = 0; i < 3; i++) { //цикл, который позволяет заполнить массив
+        chislo[i] = x % 10; //элемент массива с индексом i получает значение x % 10
+        x = x / 10; //целочисленно уменьшаем х в 10 раз, чтобы избавиться от последней цифры
     }
     std::cout << "Vvedite chislo b:\n";
     std::cin >> b;
